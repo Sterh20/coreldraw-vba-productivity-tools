@@ -9,7 +9,7 @@ A collection of VBA macros and functions to enhance productivity when using Core
 
 ## Features
 
-**SaveAndCleanup Module**:
+### SaveAndCleanup Module:
 <ul style="list-style-type:square;">
 <li><b>SaveAsLowerVersion</b> function: Saves the active or specified CorelDRAW document as an earlier version format.</li>
 <li><b>SaveAllAsLowerVersion</b> sub: Saves all CorelDRAW documents in an active document's folder as an earlier version format.</li>
@@ -17,7 +17,7 @@ A collection of VBA macros and functions to enhance productivity when using Core
 <li><b>DeleteBackupFiles</b> sub: Deletes all backup files of CorelDRAW documents in an active document's folder.</li>
 </ul>
 
-**HelperFunctions Module**:
+### HelperFunctions Module:
 <ul style="list-style-type:square;">
 <li><b>DeleteFileToRecycleBin</b> function: Deletes a specified file and sends it to the recycle bin.</li>
 <li><b>FileExists</b> function: Determines if a specified file exists.</li>
@@ -32,12 +32,15 @@ A collection of VBA macros and functions to enhance productivity when using Core
 ## Example
 
 To use the SaveAsLowerVersion function, run the following code:
+
 `SaveAsLowerVersion "C:\path\to\your\document.cdr", cdrVersion14`
 
 To use the SaveAllAsLowerVersion sub, run the following code:
+
 `SaveAllAsLowerVersion`
 
 To use the DeleteFileToRecycleBin function, run the following code:
+
 `DeleteFileToRecycleBin "C:\path\to\your\file.ext"`
 
 ## License
